@@ -7,4 +7,4 @@ cd "$PROJECT_DIR"
 
 PORT="${DEPLOY_RUN_PORT:-5000}"
 
-exec ./node_modules/.bin/serve dist -p "$PORT"
+exec ./node_modules/.bin/serve dist -p "$PORT" -s
